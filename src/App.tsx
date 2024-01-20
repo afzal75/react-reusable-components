@@ -1,9 +1,15 @@
+import MainLayout from "./components/layout/MainLayout";
+import Container from "./components/ui/Container";
 
 const App = () => {
   return (
-    <div>
-      <h1>This is Good Enough</h1>
-    </div>
+    <Container>
+      <div className="h-screen w-full flex justify-center items-center">
+        <div className="size-20 bg-red-500">
+
+        </div>
+      </div>
+    </Container>
   );
 };
 
